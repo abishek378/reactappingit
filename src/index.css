@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+ 
+  
+}
+body{
+  width:100vw;
+  height:100vh;
+  background-color: rgb(176, 175, 175);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.acomp{
+  background-color: rgb(34, 241, 241);
+  width:100%;
+  height:130px;
+  color:rgb(33, 33, 33);
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 900;
+
 }
+
+
+
+.bcomp{
+
+  margin:30px 30px;
+  background-color: rgb(243, 243, 108);
+  /* width:100%; */
+  height:100px;
+  padding: 20px;
+}
+
+
+.ccompo{
+  background-color: bisque;
+  border:1px solid blue;
+  color:red;
+}
+
+
+
+#dcomp{
+  background-color: rgb(187, 153, 249);
+}
+
+
+
+
+.ecomp{
+  background-color: blueviolet;
+}
+
+
+.fcompo{
+  /* width:20%; */
+  height:400px;
+  background-color:rgb(106, 106, 106);
+  color:rgb(43, 43, 43);
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  /* margin: 20px 20px; */
+}
+
+.fcompo div{
+  margin:3px;
+}
+
+.fcompo img{
+  background-size: contain;
+  width:200px;
+  margin-bottom: 30px;
+
+}
+
+.fcompo span{
+  font-size: larger;
+  font-weight: 600;
+  color:rgba(255, 255, 255, 0.918);
+}
+img{
+  border-radius: 90px;
+}
+
+
+#pfcompo{
+background-color:aliceblue;
+ width: 100vw;
+ box-sizing: border-box;
+  /* background-color: blueviolet; */
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  justify-items: stretch;
+  gap:10px 20px;
+  padding: 10px;
+}
+
